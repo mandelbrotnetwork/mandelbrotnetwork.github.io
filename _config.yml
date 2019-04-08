@@ -1,0 +1,50 @@
+# Set theme
+remote_theme: daviddarnes/alembic
+
+# File excludes
+exclude:
+- README.md
+- Gemfile
+- Gemfile.lock
+
+# Set plugins
+plugins:
+- jekyll-sitemap
+- jekyll-mentions
+- jekyll-paginate
+- jekyll-seo-tag
+- jekyll-redirect-from
+- jekyll-default-layout
+- jekyll-feed
+- jemoji
+- jekyll-remote-theme
+
+# Site settings
+url: 'https://mandelbrot.dev'
+baseurl: ''
+title: 'The Mandelbrot Network'
+description: 'This is my new website'
+permalink: pretty
+logo: "https://upload.wikimedia.org/wikipedia/commons/1/14/Mandelbrot_DEM_Sobel.png"
+
+# Pagination
+paginate: 5
+paginate_path: blog/page:num
+
+# Header nav
+navigation_header:
+  Home: /
+
+# Footer nav
+navigation_footer:
+  Back to top: "#top"
+
+# Collections
+collections:
+  posts:
+    title: Posts
+    output: true
+    description: "My thoughts and ideas"
+    feature_text: |
+      Welcome to my blog
+    feature_image: "https://upload.wikimedia.org/wikipedia/commons/2/21/Mandel_zoom_00_mandelbrot_set.jpg"

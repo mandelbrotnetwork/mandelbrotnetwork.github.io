@@ -1,0 +1,9 @@
+{
+  "lang": "en-US",
+  "name": "The Mandelbrot Network",
+  "short_name": "TheMandelbrotNetwork",
+  "theme_color": "#24292e",
+  "background_color": "#ffffff",
+  "start_url": "/",
+  "display": "standalone"
+}
