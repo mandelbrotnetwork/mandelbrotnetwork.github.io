@@ -1,6 +1,12 @@
 ---
-title: The Mandelbrot Network
+title: The Mandelbrot Project
 layout: page
 feature_image: "https://upload.wikimedia.org/wikipedia/commons/2/21/Mandel_zoom_00_mandelbrot_set.jpg"
 ---
-<iframe style="width: 100%; height: 100%" src="https://www.guidedtrack.com/programs/rg36sl7/run"/>  
+<script>
+window.setIframeHeight = function resizeIframe() {
+    const objt = document.getElementById("survey_iframe")
+    obj.style.height = obj.contentWindow.document.body.scrollHeight + 'px';
+  }
+</script>
+<iframe style="width: 100%; height: 600px" id="survey_iframe" onload="window.setIframeHeight()" src="/survey"/>  
