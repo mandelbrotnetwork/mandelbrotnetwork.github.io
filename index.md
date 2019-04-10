@@ -25,7 +25,6 @@ feature_image: "https://upload.wikimedia.org/wikipedia/commons/2/21/Mandel_zoom_
 
   }
   ifrm.style.width = 100 + '%'
-
-  ifrm.src = 'https://mandelbrot.dev/survey'
+  ifrm.src = location.href + 'survey/'
   document.getElementById('container_script').parentElement.appendChild(ifrm)
 </script>
